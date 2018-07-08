@@ -1,0 +1,19 @@
+{
+  "name": "sequelize-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "migrate": "sequelize db:migrate",
+    "migrate_create": "sequelize migration:create --name"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "mysql2": "^1.5.3",
+    "sequelize": "^4.38.0",
+    "sequelize-cli": "^4.0.0"
+  }
+}
